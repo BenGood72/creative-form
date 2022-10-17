@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2022-10-04 19:09:53</change_date>
+        <changed_by display_value="Ben Cleary (ben.cleary)">dd73fce41bf53850e103531b234bcbb7</changed_by>
+        <content display_value="Define indexed sources">cec6aa2f5b4310100977ca225681c701</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-04 19:09:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5af121d61bd25910756e9938b04bcb7f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022-10-04 19:09:53</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>gsw_change_log_5af121d61bd25910756e9938b04bcb7f</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:09:53</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

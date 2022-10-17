@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Place Job Number</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   var num = g_form.getValue('number');
+	var brand = g_form.getValue('u_brand');
+	if(brand == 'b2b') {
+		g_form.setValue('u_job_number','B2B_' + num);
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-04 17:30:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>acd989961b925910756e9938b04bcb9a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Place Job Number</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sys_script_client_acd989961b925910756e9938b04bcb9a</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-04 19:42:37</sys_updated_on>
+        <table>x_otte2_creative_f_creative_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

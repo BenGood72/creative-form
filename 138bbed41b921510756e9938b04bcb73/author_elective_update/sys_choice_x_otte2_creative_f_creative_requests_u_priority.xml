@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_priority" table="x_otte2_creative_f_creative_requests" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_priority</element>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-09-28 20:45:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5a4efe581b921510756e9938b04bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_priority</sys_name>
+            <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+            <sys_update_name>sys_choice_x_otte2_creative_f_creative_requests_u_priority</sys_update_name>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-09-28 20:45:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1 - Business critical, urgent with firm deadline, director-approved</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-09-28 20:45:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>164efe581b921510756e9938b04bcb27</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-04 20:35:35</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2 - Business critical, less urgent</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-09-28 20:45:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>564efe581b921510756e9938b04bcb28</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-04 20:35:35</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3 - Urgent, not business critical</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-09-28 20:45:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d24efe581b921510756e9938b04bcb29</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-04 20:35:35</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_priority</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4 - Less important</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-04 20:35:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>759575161b165910756e9938b04bcb1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-04 20:35:35</sys_updated_on>
+            <value>4 - Less important</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

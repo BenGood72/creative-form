@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Creative Requests" max_length="40" name="x_otte2_creative_f_creative_requests" sizeclass="6" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Please add SKU numbers to be added" max_length="4000" name="u_add_sku" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional Information" mandatory="true" max_length="4000" name="u_aditional_info" type="string"/>
+        <element attributes="encode_utf8=false" label="Brief Approval" max_length="32" name="u_approval" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Final Assets Due" mandatory="true" max_length="40" name="u_assets_due" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Assignment Details" max_length="40" name="u_assignment_details" type="string"/>
+        <element label="Background" max_length="65536" name="u_background" type="html"/>
+        <element label="New True/False" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Brand" max_length="40" name="u_brand" type="string">
+            <choice>
+                <element inactive_on_update="false" label="B2B" sequence="0" value="b2b"/>
+                <element inactive_on_update="false" label="LifeProof" sequence="1" value="lifeproof"/>
+                <element inactive_on_update="false" label="Liviri" sequence="2" value="liviri"/>
+                <element inactive_on_update="false" label="OtterBox" sequence="3" value="otterbox"/>
+                <element inactive_on_update="false" label="OtterCares" sequence="4" value="ottercares"/>
+                <element inactive_on_update="false" label="Otter Products" sequence="5" value="otterproducts"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Brief Type" mandatory="true" max_length="40" name="u_brief_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Creative Development Brief" sequence="0" value="development"/>
+                <element inactive_on_update="false" label="Creative Execution Brief" sequence="1" value="execution"/>
+                <element inactive_on_update="false" label="Creative Revision Brief" sequence="2" value="revision"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="What is the Call to Action" max_length="4000" name="u_call_to_action" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Will the asset(s) need to be uploaded to DAL?" max_length="40" name="u_dal" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="New Data Structure" max_length="800" name="u_data_structure_14" type="data_structure"/>
+        <element attributes="edge_encryption_enabled=true" label="Execution Objective" max_length="4000" name="u_execution_objective" type="string"/>
+        <element label="New Field Name" max_length="80" name="u_field_name_16" type="field_name"/>
+        <element label="Final Assets Due" max_length="40" name="u_final_assets_due" type="due_date"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_15" type="glide_duration"/>
+        <element label="Target Audience" max_length="65536" name="u_html_12" type="html"/>
+        <element label="New Icon" max_length="100" name="u_icon_17" type="icon"/>
+        <element attributes="edge_encryption_enabled=true" label="Job Number" max_length="40" name="u_job_number" type="string"/>
+        <element label="New Long" max_length="40" name="u_longint_13" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" label="Message Strategy" max_length="255" name="u_message_strat" type="string_full_utf8"/>
+        <element label="Will any new SKUs need to be added to the existing asset?" max_length="40" name="u_new_skus" type="boolean"/>
+        <element label="Objective" max_length="65536" name="u_objective" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" max_length="40" name="u_priority" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1 - Business critical, urgent with firm deadline, director-approved" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2 - Business critical, less urgent" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3 - Urgent, not business critical" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4 - Less important" sequence="3" value="4 - Less important"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Project Title" max_length="40" name="u_project_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason for draft review date" max_length="255" name="u_reason" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested draft review" max_length="40" name="u_requested_draft" type="glide_date"/>
+        <element label="Revision Details" max_length="65536" name="u_revision_details" type="html"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Revision Type" max_length="40" name="u_revision_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Copy Revision" sequence="0" value="copy_revision"/>
+                <element inactive_on_update="false" label="File-Size revision" sequence="1" value="file_size_revision"/>
+                <element inactive_on_update="false" label="File-Type Revision" sequence="2" value="file_type_revision"/>
+                <element inactive_on_update="false" label="Image revision" sequence="3" value="image_revision"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Saved - Not Submitted" sequence="0" value="not_submitted"/>
+                <element inactive_on_update="false" label="Working" sequence="1" value="working"/>
+                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Background" max_length="4000" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assignment Details" max_length="4000" name="u_string_assignment_details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Background" max_length="255" name="u_string_background" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Message Strategy" max_length="4000" name="u_string_message_strategy" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Objective" max_length="4000" name="u_string_objective" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Audience" max_length="4000" name="u_string_target_audience" type="string"/>
+        <element label="Supporting Docs" max_length="40" name="u_supporting_docs" type="file_attachment"/>
+        <element label="Technical Specifications" max_length="65536" name="u_tech_specs" type="html"/>
+        <index name="index">
+            <element name="u_approval"/>
+        </index>
+    </element>
+</database>

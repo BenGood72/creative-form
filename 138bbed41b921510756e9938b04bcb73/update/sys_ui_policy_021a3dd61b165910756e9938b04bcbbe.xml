@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_otte2_creative_f_creative_requests">u_new_skus=false^EQ<item endquery="false" field="u_new_skus" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Add Skus</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-04 20:55:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>021a3dd61b165910756e9938b04bcbbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Skus</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sys_ui_policy_021a3dd61b165910756e9938b04bcbbe</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-04 20:55:43</sys_updated_on>
+        <table>x_otte2_creative_f_creative_requests</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
