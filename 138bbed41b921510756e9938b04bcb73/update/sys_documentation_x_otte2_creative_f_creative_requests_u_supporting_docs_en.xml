@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_supporting_docs" label="Supporting Docs" language="en" table="x_otte2_creative_f_creative_requests">
+    <sys_documentation element="u_supporting_docs" label="Please attach product copy decks and any relevant creative references or support here:" language="en" table="x_otte2_creative_f_creative_requests">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_supporting_docs</element>
             <help/>
             <hint/>
-            <label>Supporting Docs</label>
+            <label>Please attach product copy decks and any relevant creative references or support here:</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
-            <plural>Supporting Docs</plural>
+            <plural>Please attach product copy decks and any relevant creative references or support here:s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>ben.cleary</sys_created_by>
             <sys_created_on>2022-09-28 20:48:46</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>941f3a981b921510756e9938b04bcb1b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Supporting Docs</sys_name>
+            <sys_id>29b290aedb6a19107980c59b139619e4</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Please attach product copy decks and any relevant creative references or support here:</sys_name>
             <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
             <sys_update_name>sys_documentation_x_otte2_creative_f_creative_requests_u_supporting_docs_en</sys_update_name>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-09-28 20:48:46</sys_updated_on>
+            <sys_updated_on>2022-10-20 18:57:03</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

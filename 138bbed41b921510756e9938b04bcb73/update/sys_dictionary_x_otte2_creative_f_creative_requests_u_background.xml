@@ -5,8 +5,13 @@
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation>(function calculatedFieldValue(current) {&#13;
+&#13;
+	// Add your code here&#13;
+	return '';  // return the calculated value&#13;
+&#13;
+})(current);</calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Background</column_label>
@@ -49,8 +54,8 @@
         <sys_created_by>ben.cleary</sys_created_by>
         <sys_created_on>2022-09-28 20:45:20</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>8a4ebe581b921510756e9938b04bcbed</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>19b290aedb6a19107980c59b139619bd</sys_id>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Background</sys_name>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
@@ -58,7 +63,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_dictionary_x_otte2_creative_f_creative_requests_u_background</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-09-28 20:45:20</sys_updated_on>
+        <sys_updated_on>2022-10-17 22:01:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

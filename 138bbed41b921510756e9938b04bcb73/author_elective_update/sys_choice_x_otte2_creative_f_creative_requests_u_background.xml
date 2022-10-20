@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_background" table="x_otte2_creative_f_creative_requests" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_background</element>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-17 21:26:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>36fd3466db2e19107980c59b139619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_background</sys_name>
+            <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+            <sys_update_name>sys_choice_x_otte2_creative_f_creative_requests_u_background</sys_update_name>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-17 21:26:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

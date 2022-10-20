@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">source_table=x_otte2_creative_f_creative_requests^EQ<item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_otte2_creative_f_creative_requests"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <event_name> change.emergency</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <group/>
+        <group_field/>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <list/>
+        <list_field/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><!-- Header --></p>
+<table style="font-family: Arial, Verdana, Helvetica, sans-serif; height: 465px;" border="0" cellspacing="1" cellpadding="0" align="center">
+<tbody>
+<tr style="height: 10px;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 6px; color: #ffffff; height: 10px; width: 2008.8px;" align="center" valign="left">Short Description: ${short_description}</td>
+</tr>
+<tr style="height: 27px;">
+<td style="text-align: left; color: #505050; font-family: Raleway, Arial, Helvetica, sans-serif; font-weight: 200; font-size: 1.5rem; height: 27px; width: 2008.8px;">OTTER PRODUCTS CREATIVE REQUEST</td>
+</tr>
+<tr style="height: 18px;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 16px; color: #ffffff; height: 18px; width: 2008.8px;" align="center" valign="middle" bgcolor="#FFDF00"><span style="color: #000000;">A Creative Request Form Requires Your Approval</span></td>
+</tr>
+<!-- End Header --> <!-- BODY -->
+<tr style="height: 271px;">
+<td style="text-align: left; font-size: 10pt; height: 271px; width: 2008.8px;">
+<p>An Otter has submitted a Creative Request that requires your Approval. Please review the information below and then use the <a title="IT Service Portal" href="https://otterbox.service-now.com/sp" target="_blank" rel="noopener">IT Service Portal</a>&nbsp;to approve or deny the request via the 'My Approvals' panel. You can select "Options" to view more information about&nbsp;the request.</p>
+<center><img title="" src="sys_attachment.do?sys_id=2a0b50a04f4cb24084e342fd0210c736" alt="" border="" hspace="" vspace="" /></center><hr /></td>
+</tr>
+<tr style="height: 16px;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; height: 16px; width: 2008.8px;">
+<p>${mail_script:creative_request}</p>
+<p>&nbsp;</p>
+<pre><code>Dear ${approver.name},
+
+Please approve or reject by clicking one of the buttons below and sending the email opened after click of any of below button.
+
+${mail_script:email.button.approve.insert} ${mail_script:email.button.reject.insert}</code></pre>
+</td>
+</tr>
+<tr style="height: 16px;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; height: 16px; width: 2008.8px;">&nbsp;</td>
+</tr>
+<tr style="height: 44px;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; padding-bottom: 14px; height: 44px; width: 2008.8px;">
+<p>You can also click here to approve through the request record: ${URI_REF}</p>
+</td>
+</tr>
+<tr style="height: 15px;">
+<td style="text-align: left; font-size: 10pt; height: 15px; width: 2008.8px;"><hr /></td>
+</tr>
+<tr style="height: 15px;">
+<td style="text-align: left; font-size: 10pt; height: 15px; width: 2008.8px;"><hr /></td>
+</tr>
+<!-- End BODY --> <!-- Footer -->
+<tr style="height: 16px;">
+<td style="text-align: center; padding-bottom: 2px; background-color: #505050; color: #ffffff; font-weight: bold; font-size: 10pt; height: 16px; width: 2008.8px;">209 S Meldrum St&nbsp;&nbsp;|&nbsp;&nbsp;Fort Collins, CO 80521&nbsp;&nbsp;|&nbsp;&nbsp;970.490.7490&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://support.otterproducts.com" target="blank">support.otterproducts.com</a></td>
+</tr>
+<tr style="height: 17px;">
+<td style="font-family: Arial, Helvetica, sans-serif; font-size: 8px; height: 17px; width: 2008.8px;">&reg;2014 Otter Products, LLC. All rights reserved. OtterBox and all OtterBox logos, trademarks and symbols are the property of Otter Products, LLC. All other logos, trademarks and symbols are the property of their respective owners. <strong>NOTICE OF CONFIDENTIALITY:</strong> The information contained in this e-mail, and in any attachment thereto, is confidential and may be privileged. It is intended only for the use of the individual(s) or entity named herein. If the reader of this message is not the intended recipient, you are hereby notified that any dissemination, distribution, or copying of this communication is strictly prohibited. If you have received this communication in error, please notify me immediately by telephone, fax, or e-mail and then delete this e-mail.</td>
+</tr>
+</tbody>
+</table>
+<p><!-- End Footer --></p>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Creative Form</name>
+        <omit_watermark>false</omit_watermark>
+        <order/>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>New Creative Request requires your approval</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-18 22:46:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>b5195e32dbae59107980c59b1396198d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Creative Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sysevent_email_action_b5195e32dbae59107980c59b1396198d</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-20 18:18:54</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <user/>
+        <user_field/>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

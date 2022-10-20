@@ -45,8 +45,19 @@
 	if (current.u_brand == 'b2b') {
 		current.u_job_number = "B2B_" + num;
 	}
+	if (current.u_brand == 'lifeproof') {
+		current.u_job_number = "LP_" + num;
+	}	
+	if (current.u_brand == 'liviri') {
+		current.u_job_number = "LIV_" + num;
+	}
+	if (current.u_brand == 'otterbox') {
+		current.u_job_number = "OB_" + num;
+	}	
+	if (current.u_brand == 'ottercares') {
+		current.u_job_number = "OC_" + num;
+	}
 	
-
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
@@ -54,7 +65,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e8164dd21b925910756e9938b04bcb7a</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Job Number</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -63,7 +74,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_e8164dd21b925910756e9938b04bcb7a</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-04 20:47:33</sys_updated_on>
+        <sys_updated_on>2022-10-17 18:42:51</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Help text</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	
+	var brief = g_form.getValue('u_brief_type');
+	
+	//Background
+	if(brief == 'development'){
+		g_form.showFieldMsg('u_background','Is this request for NEW CREATIVE part of any other larger initiative? Briefly provide any background information essential for the development of new creative assets (Art, Copy, Design, Video)','info');  
+	} else if (brief == 'execution'){
+		g_form.showFieldMsg('u_background','Is this creative execution part of another initiative? Provide any information essential for the completion of this request, including other project or asset numbers.','info');
+	}
+
+	//Objective
+	if(brief == 'development'){
+		g_form.showFieldMsg('u_objective','Why are we doing this? What should the NEW CREATIVE achieve?','info');
+	} else if (brief == 'execution'){
+		g_form.showFieldMsg('u_objective','Why are we executing this? What should the creative execution achieve?','info');
+	}
+	
+	//Target Audience
+	if(brief == 'development'){
+		g_form.showFieldMsg('u_target_audience','Who, where and when. In a few words, what might their core tension be?','info');
+	} else if (brief == 'execution'){
+		g_form.showFieldMsg('u_target_audience','Who, where and when. In a few words, what might their core tension be?','info');
+	}
+	
+	//Message Strategy
+	g_form.showFieldMsg('u_message_strategy','Attach if new / reference if existing','info');
+	
+	//Assignment Details
+	if(brief == 'development'){
+		g_form.showFieldMsg('u_assignment_details','Please make a deliverable list, in order of priority, with consideration to each execution type and, if applicable, quantity','info');
+	} else if (brief == 'execution'){
+		g_form.showFieldMsg('u_assignment_details','Please list all deliverables, in order of priority, with consideration of each execution type and, if applicable, quantity. Note: If you are submitting a brief for CDL assets please list which CRNs are backed by this brief and which channels are requesting them.','info');
+	}
+	
+	//Mandatories
+	if(brief == 'development'){
+		g_form.showFieldMsg('u_mandatories','Include any specific language, logo(s), product(s), call-to-action, etc. Production briefs require more information, including thematic direction, shot lists, etc.','info');
+	} else if (brief == 'execution'){
+		g_form.showFieldMsg('u_mandatories','Include any specific language, logo(s), product(s), call-to-action, etc.','info');
+	}
+	
+	//Additional Info
+	if(brief == 'development'){
+		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable. Project numbers are the best!','info');
+	}  else if (brief == 'execution'){
+		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in a kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable, including previous project or CDL asset numbers.','info');
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-17 21:04:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>e8a8b422db2e19107980c59b139619b8</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Help text</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sys_script_client_e8a8b422db2e19107980c59b139619b8</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-20 19:05:20</sys_updated_on>
+        <table>x_otte2_creative_f_creative_requests</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -6,7 +6,7 @@
         <attributes>encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Brief Approval</column_label>
@@ -39,8 +39,19 @@
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
+        <reference_qual>active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="false" value="alex.ross"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="bill.fisher"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="melissa.crompton"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="kelsey.schneider"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="rande.colburn"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="nathan.childs"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="tammi.smith"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="Michael.Kirby"/>
+            <item endquery="false" field="user_name" goto="false" newquery="false" operator="=" or="true" value="ruth.thomas"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -49,8 +60,8 @@
         <sys_created_by>ben.cleary</sys_created_by>
         <sys_created_on>2022-09-28 20:45:19</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>4e4ebe581b921510756e9938b04bcbe0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>1db290aedb6a19107980c59b139619b9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Brief Approval</sys_name>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
@@ -58,7 +69,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_dictionary_x_otte2_creative_f_creative_requests_u_approval</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-09-28 20:45:19</sys_updated_on>
+        <sys_updated_on>2022-10-20 18:36:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
