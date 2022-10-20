@@ -7,7 +7,7 @@
             <sys_created_by>ben.cleary</sys_created_by>
             <sys_created_on>2022-10-03 22:19:03</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>2fa3c18a1bd61910756e9938b04bcbbc</sys_id>
+            <sys_id>a1b2d0aedb6a19107980c59b13961908</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_revision_type</sys_name>
             <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -22,8 +22,8 @@
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>Copy Revision</label>
+            <inactive>true</inactive>
+            <label>Copy Revision / Additions</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
             <sequence>0</sequence>
@@ -32,17 +32,36 @@
             <sys_created_on>2022-10-03 22:19:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>e7a3c18a1bd61910756e9938b04bcbbc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-03 22:19:03</sys_updated_on>
+            <sys_updated_on>2022-10-20 19:32:14</sys_updated_on>
             <value>copy_revision</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>File-Size revision</label>
+            <inactive>true</inactive>
+            <label>QA-Proofing</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:33:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>95c040e3db6ed9107980c59b139619be</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:37</sys_updated_on>
+            <value>qa_proofing</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_revision_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Image revision (size/type)</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
             <sequence>1</sequence>
@@ -50,49 +69,49 @@
             <sys_created_by>ben.cleary</sys_created_by>
             <sys_created_on>2022-10-03 22:19:03</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>2ba3c18a1bd61910756e9938b04bcbbd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>27a3c18a1bd61910756e9938b04bcbbf</sys_id>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-03 22:19:03</sys_updated_on>
-            <value>file_size_revision</value>
+            <sys_updated_on>2022-10-20 19:34:35</sys_updated_on>
+            <value>image_revision</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>File-Type Revision</label>
+            <inactive>true</inactive>
+            <label>Video Revision</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:33:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9fd0c0e3db6ed9107980c59b1396192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:37</sys_updated_on>
+            <value>video_revision</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_revision_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Asset Revision (CDL Asset(s), or Theme to revise)</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-03 22:19:03</sys_created_on>
+            <sys_created_on>2022-10-20 19:34:15</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>a7a3c18a1bd61910756e9938b04bcbbe</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>d3f0c4e3db6ed9107980c59b139619b1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-03 22:19:03</sys_updated_on>
-            <value>file_type_revision</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_revision_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Image revision</label>
-            <language>en</language>
-            <name>x_otte2_creative_f_creative_requests</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-03 22:19:03</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_id>27a3c18a1bd61910756e9938b04bcbbf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-03 22:19:03</sys_updated_on>
-            <value>image_revision</value>
+            <sys_updated_on>2022-10-20 19:38:37</sys_updated_on>
+            <value>asset_revision</value>
         </sys_choice>
     </sys_choice>
 </record_update>

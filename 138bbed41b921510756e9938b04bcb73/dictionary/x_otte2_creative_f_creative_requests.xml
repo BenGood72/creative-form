@@ -57,6 +57,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Execution Objective" max_length="4000" name="u_execution_objective" type="html"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,start_locked=false" label="Execution Type (choose 1 or more)" max_length="1024" name="u_execution_type" type="glide_list"/>
         <element dependent="u_background" dependent_on_field="u_background" label="Is this request for NEW CREATIVE part of any other larger initiative? Briefly pr" max_length="80" name="u_field_name_4" type="field_name" use_dependent_field="true"/>
         <element label="Final Assets Due" max_length="40" name="u_final_assets_due" type="due_date"/>
         <element attributes="edge_encryption_enabled=true" label="Job Number" max_length="40" name="u_job_number" type="string"/>
@@ -65,6 +66,7 @@
         <element label="Will any new SKUs need to be added to the existing asset?" max_length="40" name="u_new_skus" type="boolean"/>
         <element label="Objective" max_length="65536" name="u_objective" type="html"/>
         <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened By" max_length="32" name="u_opened_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Original Creative Brief Number or Asset Number (including what CDL it’s from)" max_length="40" name="u_original_brief" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" mandatory="true" max_length="40" name="u_priority" type="string">
             <choice>
                 <element inactive_on_update="false" label="1-Business Critical, important, urgent with a firm deadline" sequence="0" value="1"/>
@@ -78,14 +80,7 @@
         <element attributes="edge_encryption_enabled=true" label="Reason for draft review date" max_length="255" name="u_reason" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Requested draft review" mandatory="true" max_length="40" name="u_requested_draft" type="glide_date"/>
         <element label="Revision Details" max_length="65536" name="u_revision_details" type="html"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Revision Type" max_length="40" name="u_revision_type" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Copy Revision" sequence="0" value="copy_revision"/>
-                <element inactive_on_update="false" label="File-Size revision" sequence="1" value="file_size_revision"/>
-                <element inactive_on_update="false" label="File-Type Revision" sequence="2" value="file_type_revision"/>
-                <element inactive_on_update="false" label="Image revision" sequence="3" value="image_revision"/>
-            </choice>
-        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,start_locked=false" label="Revision Type (choose 1 or more)" max_length="1024" name="u_revision_type" type="glide_list"/>
         <element label="Send for Approval" max_length="40" name="u_send_approval" type="boolean"/>
         <element label="SKUs to Feature" mandatory="true" max_length="65536" name="u_skus_to_feature" type="html"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" read_only="true" type="string">
@@ -99,6 +94,7 @@
         <element label="Please attach any relevant creative references or supporting documents here:" max_length="40" name="u_supporting_docs_development" type="file_attachment"/>
         <element label="Target Audience" max_length="65536" name="u_target_audience" type="html"/>
         <element label="Technical Specifications" max_length="65536" name="u_tech_specs" type="html"/>
+        <element label="If applicable, what specifications have changed for request?" max_length="65536" name="u_what_changed" type="html"/>
         <index name="index">
             <element name="u_approval"/>
         </index>

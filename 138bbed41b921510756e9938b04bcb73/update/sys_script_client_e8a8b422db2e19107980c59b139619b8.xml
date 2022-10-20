@@ -57,8 +57,30 @@
 		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable. Project numbers are the best!','info');
 	}  else if (brief == 'execution'){
 		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in a kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable, including previous project or CDL asset numbers.','info');
+	} else if (brief == 'revision'){
+		g_form.showFieldMsg('u_additional_information','Please include any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable.','info');
 	}
 	
+	//Call to Action
+	g_form.showFieldMsg('u_call_to_action','Buy Now, Shop Now, Learn More, Sign Up. Etc. Creative can re-write it but what is the goal action for this creative?','info');
+	
+	//SKUS to Feature
+	g_form.showFieldMsg('u_skus_to_feature','Please include all SKU numbers the asset(s) should contain, in order of priority. This is mandatory. Also acceptable are links to products or attachments of Product Copy Decks for requested products.','info');
+	
+	//Original Creative Brief Number
+	g_form.showFieldMsg('u_original_brief','It will take us much less time to revise if we can reference the brief / asset number from original art. If not available, please add any art or links you do have.','info');
+	
+	//Revision Details
+	g_form.showFieldMsg('u_revision_details','New deliverables requested, in a list, in order of priority, with consideration to each execution type.','info');
+	
+	//Tech Specs
+	g_form.showFieldMsg('u_tech_specs','If applicable, what specifications have changed for request?','info');
+	
+	//If applicable, what specifications have changed
+	g_form.showFieldMsg('u_what_changed','Who, where and when. In a few words, what might their core tension be?','info');
+
+	//Add SKUS
+	g_form.showFieldMsg('u_add_sku','Please include all SKU numbers the asset(s) should contain, in order of priority','info');
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
@@ -66,7 +88,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e8a8b422db2e19107980c59b139619b8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Help text</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -75,7 +97,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_client_e8a8b422db2e19107980c59b139619b8</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-20 19:05:20</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:45:28</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

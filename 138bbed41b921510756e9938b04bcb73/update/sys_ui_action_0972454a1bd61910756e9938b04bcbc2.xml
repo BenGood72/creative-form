@@ -30,7 +30,8 @@
         <name>Load Form</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[current.update();
+        <script><![CDATA[current.u_status = 'not_submitted';
+current.update();
 action.setRedirectURL(current);]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -42,7 +43,7 @@ action.setRedirectURL(current);]]></script>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>0972454a1bd61910756e9938b04bcbc2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Load Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -51,7 +52,7 @@ action.setRedirectURL(current);]]></script>
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_ui_action_0972454a1bd61910756e9938b04bcbc2</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-04 20:49:58</sys_updated_on>
+        <sys_updated_on>2022-10-20 19:52:18</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -1,30 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="New Section" section_id="07a3c18a1bd61910756e9938b04bcb69" sys_domain="global" table="x_otte2_creative_f_creative_requests" version="3" view="Revision">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_revision_details</element>
+            <element>u_revision_type</element>
             <position>0</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-17 20:55:51</sys_created_on>
-            <sys_id>a1e67caedbea19107980c59b13961956</sys_id>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>a7f10427db6ed9107980c59b139619a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-17 20:55:51</sys_updated_on>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_original_brief</element>
+            <position>1</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>2bf10427db6ed9107980c59b139619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_revision_details</element>
+            <position>2</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>abf10427db6ed9107980c59b139619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_tech_specs</element>
-            <position>1</position>
+            <position>3</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-17 20:55:51</sys_created_on>
-            <sys_id>29e67caedbea19107980c59b13961956</sys_id>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>2ff10427db6ed9107980c59b139619a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-17 20:55:51</sys_updated_on>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_what_changed</element>
+            <position>4</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>aff10427db6ed9107980c59b139619a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_new_skus</element>
+            <position>5</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>23f10427db6ed9107980c59b139619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_add_sku</element>
+            <position>6</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>a3f10427db6ed9107980c59b139619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_additional_information</element>
+            <position>7</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>27f10427db6ed9107980c59b139619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_supporting_docs_development</element>
+            <position>8</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-20 19:38:38</sys_created_on>
+            <sys_id>a7f10427db6ed9107980c59b139619a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">07a3c18a1bd61910756e9938b04bcb69</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-20 19:38:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
