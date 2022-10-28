@@ -3,26 +3,98 @@
         <name>creative_request</name>
         <new_lines_to_html>false</new_lines_to_html>
         <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
-template.print("<p></p>Create Request Approval Details:<br />");
-
+template.print("<p></p>Creative Request Details:<br />");
+	
 var gr = new GlideRecord("x_otte2_creative_f_creative_requests");
 gr.addQuery("sys_id", current.document_id);
 gr.query();
-if(gr.next()) {
-	template.print(
-		"Requestor: " + gr.u_opened_by.getDisplayValue() + "<br />" +
-		"Project Title: " + gr.u_project_title + "<br />" +
-		"Brief Type: " + gr.u_brief_type + "<br />" +
-		"Requested draft review: " + gr.u_requested_draft
-	);
-}	
+	
+if(gr.next()){
+	if(gr.u_brief_type == 'development'){
+		if (gr.u_supporting_docs_development == '') {
+			var docs = 'There is no attachment';
+		}else {
+			var docs = 'Unable to display attachment here. Please open request to see attachment';
+		}
+		template.print(
+			"Requestor: " + gr.u_opened_by.getDisplayValue() + "<br />" +
+			"Project Title: " + gr.u_project_title + "<br />" +
+			"Brief Type: " + gr.u_brief_type.getDisplayValue() + "<br />" +
+			"Priority: " + gr.u_priority.getDisplayValue() + "<br />" +
+			"Requested draft review: " + gr.u_requested_draft + "<br />" +
+			"Reason for draft review date: " + gr.u_reason + "<br />" + 
+			"Job Number: " + gr.u_job_number + "<br />" +  "<br />" + 
+			"New Asset Type: " + gr.u_asset_type + "<br />" + 
+			"Background: " + gr.u_background + "<br />" + 
+			"Objective: " + gr.u_objective + "<br />" + 
+			"Target Audience: " + gr.u_target_audience + "<br />" + 
+			"Message Strategy: " + gr.u_message_strategy + "<br />" + 
+			"Assignment Details: " + gr.u_assignment_details + "<br />" + 
+			"Mandatories: " + gr.u_mandatories + "<br />" + 
+			"Additional Information: " + gr.u_additional_information + "<br />" + 
+			"Supporting Docs: " + gr.u_supporting_docs_development
+		);
+	}else if (gr.u_brief_type == 'execution'){
+		if (gr.u_supporting_docs == '') {
+			var docs = 'There is no attachment';
+		}else {
+			var docs = 'Unable to display attachment here. Please open request to see attachment';
+		}
+		template.print(
+			"Requestor: " + gr.u_opened_by.getDisplayValue() + "<br />" +
+			"Project Title: " + gr.u_project_title + "<br />" +
+			"Brief Type: " + gr.u_brief_type.getDisplayValue() + "<br />" +
+			"Priority: " + gr.u_priority.getDisplayValue() + "<br />" +
+			"Requested draft review: " + gr.u_requested_draft + "<br />" +
+			"Reason for draft review date: " + gr.u_reason + "<br />" + 
+			"Job Number: " + gr.u_job_number + "<br />" +  "<br />" + 
+			"Execution Type: " + gr.u_execution_type + "<br />" + 
+			"Background: " + gr.u_background + "<br />" + 
+			"Objective: " + gr.u_objective + "<br />" + 
+			"Target Audience: " + gr.u_target_audience + "<br />" + 
+			"Call to Action: " + gr.u_call_to_action + "<br />" + 
+			"Assignment Details: " + gr.u_assignment_details + "<br />" + 
+			"Mandatories: " + gr.u_mandatories + "<br />" + 
+			"SKUs to Feature: " + gr.u_skus_to_feature + "<br />" + 
+			"Additional Information: " + gr.u_additional_information + "<br />" + 
+			"Will the asset(s) need to be uploaded to DAL?: " + gr.u_dal + "<br />" + 
+			"Supporting docs: " + docs
+		);
+
+	}else if (gr.u_brief_type == 'revision'){
+		if (gr.u_supporting_docs_development == '') {
+			var docs = 'There is no attachment';
+		}else {
+			var docs = 'Unable to display attachment here. Please open request to see attachment';
+		}
+		template.print(
+			"Requestor: " + gr.u_opened_by.getDisplayValue() + "<br />" +
+			"Project Title: " + gr.u_project_title + "<br />" +
+			"Brief Type: " + gr.u_brief_type.getDisplayValue() + "<br />" +
+			"Priority: " + gr.u_priority.getDisplayValue() + "<br />" +
+			"Requested draft review: " + gr.u_requested_draft + "<br />" +
+			"Reason for draft review date: " + gr.u_reason + "<br />" + 
+			"Job Number: " + gr.u_job_number + "<br />" +  "<br />" + 
+			"Revision Type: " + gr.u_revision_type + "<br />" + 
+			"Original Creative Brief: " + gr.u_original_brief + "<br />" + 
+			"Revision Details: " + gr.u_revision_details + "<br />" + 
+			"Techincal Specifications: " + gr.u_tech_specs + "<br />" + 
+			"If applicable, what specifications have changed for request?: " + gr.u_what_changed + "<br />" + 
+			"Will any new SKUs need to be added to the existing asset?: " + gr.u_new_skus + "<br />" + 
+			"Additional Information: " + gr.u_additional_info + "<br />" + 
+			"Supporting Docs: " + docs
+		);
+
+	}
+}
+
 })(current, template, email, email_action, event);]]></script>
         <sys_class_name>sys_script_email</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
         <sys_created_on>2022-10-18 22:40:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1f469e7edb6e59107980c59b1396191b</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>creative_request</sys_name>
         <sys_package display_value="Global" source="global">global</sys_package>
         <sys_policy/>
@@ -30,6 +102,6 @@ if(gr.next()) {
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_email_1f469e7edb6e59107980c59b1396191b</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-20 18:23:02</sys_updated_on>
+        <sys_updated_on>2022-10-28 18:59:50</sys_updated_on>
     </sys_script_email>
 </record_update>

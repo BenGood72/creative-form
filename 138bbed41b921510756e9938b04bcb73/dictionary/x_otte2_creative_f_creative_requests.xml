@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Creative Requests" max_length="40" name="x_otte2_creative_f_creative_requests" sizeclass="11" type="collection">
+    <element label="Creative Requests" max_length="40" name="x_otte2_creative_f_creative_requests" sizeclass="20" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Additional Information" max_length="65536" name="u_additional_information" type="html"/>
@@ -16,6 +16,7 @@
                 <element inactive_on_update="false" label="New Logos / Graphics" sequence="3" value="new_logos_graphics"/>
             </choice>
         </element>
+        <element attributes="encode_utf8=false" label="Assigned To" max_length="32" name="u_assigned_to" reference="sys_user" reference_qual="user_name=catt.buko^ORuser_name=chris.white^ORuser_name=tyais.mcbride^EQ" reference_qual_condition="user_name=catt.buko^ORuser_name=chris.white^ORuser_name=tyais.mcbride^EQ" type="reference"/>
         <element label="Assignment Details" max_length="65536" name="u_assignment_details" type="html"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" hint="This is hint text" label="Background" max_length="65536" name="u_background" type="html"/>
         <element label="Background" max_length="65536" name="u_background_execution" type="html"/>
@@ -78,6 +79,7 @@
         </element>
         <element attributes="edge_encryption_enabled=true" label="Project Title" mandatory="true" max_length="40" name="u_project_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Reason for draft review date" max_length="255" name="u_reason" type="string_full_utf8"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Requested draft review" mandatory="true" max_length="40" name="u_requested_draft" type="glide_date"/>
         <element label="Revision Details" max_length="65536" name="u_revision_details" type="html"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true,start_locked=false" label="Revision Type (choose 1 or more)" max_length="1024" name="u_revision_type" type="glide_list"/>
@@ -96,9 +98,15 @@
         <element label="Technical Specifications" max_length="65536" name="u_tech_specs" type="html"/>
         <element label="If applicable, what specifications have changed for request?" max_length="65536" name="u_what_changed" type="html"/>
         <index name="index">
-            <element name="u_approval"/>
+            <element name="u_assigned_to"/>
         </index>
         <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index3">
+            <element name="u_approval"/>
+        </index>
+        <index name="index4">
             <element name="u_opened_by"/>
         </index>
     </element>

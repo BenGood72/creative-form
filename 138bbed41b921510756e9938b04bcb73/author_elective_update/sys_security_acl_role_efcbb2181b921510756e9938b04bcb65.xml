@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-09-28 20:34:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>efcbb2181b921510756e9938b04bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_otte2_creative_f_creative_requests.x_otte2_creative_f.creative_requests_user</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_security_acl display_value="x_otte2_creative_f_creative_requests">6bcbb2181b921510756e9938b04bcb61</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_efcbb2181b921510756e9938b04bcb65</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-09-28 20:34:31</sys_updated_on>
+        <sys_user_role display_value="x_otte2_creative_f.creative_requests_user" name="x_otte2_creative_f.creative_requests_user">a2cbb2181b921510756e9938b04bcb10</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Form">138bbed41b921510756e9938b04bcb73</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8b439731a91110003963fcb08fc43253</instance_id>
+        <instance_name>otterboxtest</instance_name>
+        <name>sys_security_acl_role_efcbb2181b921510756e9938b04bcb65</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-09-28 20:34:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>efcbb2181b921510756e9938b04bcb65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_otte2_creative_f_creative_requests.x_otte2_creative_f.creative_requests_user</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_security_acl display_value="x_otte2_creative_f_creative_requests">6bcbb2181b921510756e9938b04bcb61</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_efcbb2181b921510756e9938b04bcb65</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-09-28 20:34:31</sys_updated_on>
+        <sys_user_role display_value="x_otte2_creative_f.creative_requests_user" name="x_otte2_creative_f.creative_requests_user">a2cbb2181b921510756e9938b04bcb10</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>-1956587325</payload_hash>
+        <record_name>x_otte2_creative_f_creative_requests.x_otte2_creative_f.creative_requests_user</record_name>
+        <reverted_from/>
+        <source>bdb2d0aedb6a19107980c59b13961948</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-17 18:18:04</sys_created_on>
+        <sys_id>0ec218aedb6a19107980c59b139619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183e72ac9b50000001</sys_recorded_at>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-17 18:18:04</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>cac218ae266a19107b36f8476cdffff4</update_guid>
+        <update_guid_history>cac218ae266a19107b36f8476cdffff4:-1956587325</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2022-10-27 17:04:13">db24f87187b69550f1edea8d8bbb35cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-27 23:04:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>49f9069302ab4946aff1145ead5c2e89</sys_id>
+        <sys_metadata>efcbb2181b921510756e9938b04bcb65</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_otte2_creative_f_creative_requests.x_otte2_creative_f.creative_requests_user</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_parent display_value="x_otte2_creative_f_creative_requests">6bcbb2181b921510756e9938b04bcb61</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_scope_delete display_value="">3ac81eb010c94af092b58e734bb96d10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_efcbb2181b921510756e9938b04bcb65</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_efcbb2181b921510756e9938b04bcb65">0ec218aedb6a19107980c59b139619f4</sys_update_version>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-27 23:04:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

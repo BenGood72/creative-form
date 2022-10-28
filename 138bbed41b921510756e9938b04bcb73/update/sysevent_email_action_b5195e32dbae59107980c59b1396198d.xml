@@ -59,13 +59,11 @@
 </tr>
 <tr style="height: 16px;">
 <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; height: 16px; width: 2008.8px;">
-<p>${mail_script:creative_request}</p>
-<p>&nbsp;</p>
 <pre><code>Dear ${approver.name},
 
-Please approve or reject by clicking one of the buttons below and sending the email opened after click of any of below button.
+Please approve or reject by clicking one of the buttons below and sending the email opened after click of any of below button. Please review the request here: ${URI_REF} or view the information below.<br /><br />Any text entered in the email will be added as comments on the approval / rejection.
 
-${mail_script:email.button.approve.insert} ${mail_script:email.button.reject.insert}</code></pre>
+${mail_script:email.button.approve.insert} ${mail_script:email.button.reject.insert}<br /><br />${mail_script:creative_request}</code></pre>
 </td>
 </tr>
 <tr style="height: 16px;">
@@ -114,7 +112,7 @@ ${mail_script:email.button.approve.insert} ${mail_script:email.button.reject.ins
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b5195e32dbae59107980c59b1396198d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Creative Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -123,7 +121,7 @@ ${mail_script:email.button.approve.insert} ${mail_script:email.button.reject.ins
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sysevent_email_action_b5195e32dbae59107980c59b1396198d</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-20 18:18:54</sys_updated_on>
+        <sys_updated_on>2022-10-28 17:25:01</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

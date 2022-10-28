@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_assigned_to" label="Assigned To" language="en" table="x_otte2_creative_f_creative_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_assigned_to</element>
+            <help/>
+            <hint/>
+            <label>Assigned To</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <plural>Assigned Tos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-27 23:02:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>10b3747187b69550f1edea8d8bbb3535</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assigned To</sys_name>
+            <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+            <sys_update_name>sys_documentation_x_otte2_creative_f_creative_requests_u_assigned_to_en</sys_update_name>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-27 23:02:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
