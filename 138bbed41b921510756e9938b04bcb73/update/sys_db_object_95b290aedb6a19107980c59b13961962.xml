@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
         <access>public</access>
-        <actions_access>false</actions_access>
-        <alter_access>false</alter_access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
         <caller_access/>
-        <client_scripts_access>false</client_scripts_access>
-        <configuration_access>false</configuration_access>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>false</delete_access>
+        <delete_access>true</delete_access>
         <extension_model/>
         <is_extendable>false</is_extendable>
         <label>Creative Requests</label>
@@ -26,7 +26,7 @@
         <sys_created_on>2022-09-28 20:34:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>95b290aedb6a19107980c59b13961962</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Creative Requests</sys_name>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
@@ -34,7 +34,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_db_object_95b290aedb6a19107980c59b13961962</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-29 02:10:13</sys_updated_on>
+        <sys_updated_on>2022-10-29 02:49:51</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_otte2_creative_f.creative_requests_user" name="x_otte2_creative_f.creative_requests_user">a2cbb2181b921510756e9938b04bcb10</user_role>
         <ws_access>true</ws_access>
