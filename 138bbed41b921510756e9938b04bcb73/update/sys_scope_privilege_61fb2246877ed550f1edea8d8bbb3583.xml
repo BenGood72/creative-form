@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 02:26:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>61fb2246877ed550f1edea8d8bbb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_otte2_creative_f_creative_requests</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sys_scope_privilege_61fb2246877ed550f1edea8d8bbb3583</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 02:26:59</sys_updated_on>
+        <target_name>x_otte2_creative_f_creative_requests</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>

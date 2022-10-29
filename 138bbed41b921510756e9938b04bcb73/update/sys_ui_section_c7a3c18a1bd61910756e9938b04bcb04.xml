@@ -4,13 +4,13 @@
             <element>u_brief_type</element>
             <position>0</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>9c2088a3db6ed9107980c59b1396194c</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>7b519e0a87fad550f1edea8d8bbb35fe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_brand</element>
             <position>1</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>142088a3db6ed9107980c59b1396194d</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>73519e0a87fad550f1edea8d8bbb35ff</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_project_title</element>
             <position>2</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>942088a3db6ed9107980c59b1396194d</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3f51de0a87fad550f1edea8d8bbb350b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_priority</element>
             <position>3</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>182088a3db6ed9107980c59b1396194d</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3351de0a87fad550f1edea8d8bbb350c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,111 +60,125 @@
             <element>u_approval</element>
             <position>4</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>982088a3db6ed9107980c59b1396194d</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3751de0a87fad550f1edea8d8bbb350c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rejected</element>
+            <position>5</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3b51de0a87fad550f1edea8d8bbb350c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>1c2088a3db6ed9107980c59b1396194d</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3f51de0a87fad550f1edea8d8bbb350c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_requested_draft</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>9c2088a3db6ed9107980c59b1396194d</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3351de0a87fad550f1edea8d8bbb350d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_reason</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>102088a3db6ed9107980c59b1396194e</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3751de0a87fad550f1edea8d8bbb350d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_assets_due</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>902088a3db6ed9107980c59b1396194e</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3b51de0a87fad550f1edea8d8bbb350d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_status</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>142088a3db6ed9107980c59b1396194e</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3f51de0a87fad550f1edea8d8bbb350d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_job_number</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>942088a3db6ed9107980c59b1396194e</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3351de0a87fad550f1edea8d8bbb350e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_opened_by</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-20 19:30:29</sys_created_on>
-            <sys_id>182088a3db6ed9107980c59b1396194e</sys_id>
+            <sys_created_on>2022-10-29 00:29:52</sys_created_on>
+            <sys_id>3751de0a87fad550f1edea8d8bbb350e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="91fb1a64db2a91107980c59b139619e6">c7a3c18a1bd61910756e9938b04bcb04</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:30:29</sys_updated_on>
+            <sys_updated_on>2022-10-29 00:29:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_otte2_creative_f_creative_requests">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </conditions>
+        <conditions/>
         <description/>
         <global>true</global>
         <inherit>false</inherit>
@@ -11,30 +9,43 @@
         <model_id/>
         <model_table/>
         <on_load>true</on_load>
-        <order>100</order>
+        <order>200</order>
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() {
 
 }]]></script_false>
         <script_true><![CDATA[function onCondition() {
+	//Checks if super user, unlocks all fields
 	if(g_user.hasRole('creative_super_user')) {
-	var fields = g_form.getEditableFields();
-	for (var x = 0; x < fields.length; x++) {
-		g_form.setReadOnly(fields[x], false);
+		var fields = g_form.getEditableFields();
+		for (var x = 0; x < fields.length; x++) {
+			g_form.setReadOnly(fields[x], false);
 	}
+	}
+	//Locks Dates after Submit
+	else if (g_form.getValue('u_submitted') == 'true'){
+		g_form.setReadOnly('u_requested_draft', true);
+		g_form.setReadOnly('u_assets_due', true);
+	}
+	//Locks all fields after submission
+	else if (g_form.getValue('u_locked') == 'true'){
+		var allFields = g_form.getEditableFields();
+			for (var y = 0; y < allFields.length; y++) {
+			g_form.setReadOnly(allFields[y], true);
+			}
 	}
 }]]></script_true>
         <set_values/>
-        <short_description>All fields - not RO -super user</short_description>
+        <short_description>All fields RO based on status</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
         <sys_created_on>2022-10-28 01:59:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>f8ebd13d873a9550f1edea8d8bbb357c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>All fields - not RO -super user</sys_name>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>All fields RO based on status</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
@@ -42,7 +53,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_ui_policy_f8ebd13d873a9550f1edea8d8bbb357c</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-28 02:02:46</sys_updated_on>
+        <sys_updated_on>2022-10-28 20:06:08</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <ui_type>0</ui_type>
         <view/>

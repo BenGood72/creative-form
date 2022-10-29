@@ -7,7 +7,7 @@
         <element attributes="edge_encryption_enabled=true" label="Additional Information" mandatory="true" max_length="4000" name="u_aditional_info" type="string"/>
         <element attributes="encode_utf8=false" label="Brief Approval" max_length="32" name="u_approval" reference="sys_user" reference_qual="active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ" reference_qual_condition="active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Approval History" max_length="4000" name="u_approval_history" type="journal"/>
-        <element attributes="edge_encryption_enabled=true" label="Final Assets Due" mandatory="true" max_length="40" name="u_assets_due" type="calendar_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Final Assets Due" max_length="40" name="u_assets_due" type="calendar_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="New Asset Type" max_length="40" name="u_asset_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Campaign Development" sequence="0" value="campaign_development"/>
@@ -62,6 +62,7 @@
         <element dependent="u_background" dependent_on_field="u_background" label="Is this request for NEW CREATIVE part of any other larger initiative? Briefly pr" max_length="80" name="u_field_name_4" type="field_name" use_dependent_field="true"/>
         <element label="Final Assets Due" max_length="40" name="u_final_assets_due" type="due_date"/>
         <element attributes="edge_encryption_enabled=true" label="Job Number" max_length="40" name="u_job_number" type="string"/>
+        <element label="Locked?" max_length="40" name="u_locked" type="boolean"/>
         <element label="Mandatories" max_length="65536" name="u_mandatories" type="html"/>
         <element label="Message Strategy" max_length="65536" name="u_message_strategy" type="html"/>
         <element label="Will any new SKUs need to be added to the existing asset?" max_length="40" name="u_new_skus" type="boolean"/>
@@ -80,20 +81,28 @@
         <element attributes="edge_encryption_enabled=true" label="Project Title" mandatory="true" max_length="40" name="u_project_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Reason for draft review date" max_length="255" name="u_reason" type="string_full_utf8"/>
         <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Requested draft review" mandatory="true" max_length="40" name="u_requested_draft" type="glide_date"/>
+        <element label="Rejected" max_length="40" name="u_rejected" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason for Rejection" max_length="4000" name="u_rejection_reason" type="string"/>
+        <element label="Please explain problem here" mandatory="true" max_length="65536" name="u_report_problem" type="html"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested draft review" max_length="40" name="u_requested_draft" type="glide_date"/>
         <element label="Revision Details" max_length="65536" name="u_revision_details" type="html"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true,start_locked=false" label="Revision Type (choose 1 or more)" max_length="1024" name="u_revision_type" type="glide_list"/>
+        <element label="Screenshots" max_length="40" name="u_screenshots" type="file_attachment"/>
         <element label="Send for Approval" max_length="40" name="u_send_approval" type="boolean"/>
         <element label="SKUs to Feature" mandatory="true" max_length="65536" name="u_skus_to_feature" type="html"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status" read_only="true" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not_submitted" label="Status" max_length="40" name="u_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Saved - Not Submitted" sequence="0" value="not_submitted"/>
-                <element inactive_on_update="false" label="Working" sequence="1" value="working"/>
-                <element inactive_on_update="false" label="Pending" sequence="2" value="pending"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="Working" sequence="2" value="working"/>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
             </choice>
         </element>
+        <element label="Submitted?" max_length="40" name="u_submitted" type="boolean"/>
         <element label="Please attach product copy decks and any relevant creative references or support" max_length="40" name="u_supporting_docs" type="file_attachment"/>
         <element label="Please attach any relevant creative references or supporting documents here:" max_length="40" name="u_supporting_docs_development" type="file_attachment"/>
+        <element attributes="encode_utf8=false" label="Sysapproval" max_length="32" name="u_sysapproval" reference="sysapproval_approver" type="reference"/>
         <element label="Target Audience" max_length="65536" name="u_target_audience" type="html"/>
         <element label="Technical Specifications" max_length="65536" name="u_tech_specs" type="html"/>
         <element label="If applicable, what specifications have changed for request?" max_length="65536" name="u_what_changed" type="html"/>
@@ -101,12 +110,15 @@
             <element name="u_assigned_to"/>
         </index>
         <index name="index2">
-            <element name="u_reference_1"/>
+            <element name="u_sysapproval"/>
         </index>
         <index name="index3">
-            <element name="u_approval"/>
+            <element name="u_reference_1"/>
         </index>
         <index name="index4">
+            <element name="u_approval"/>
+        </index>
+        <index name="index5">
             <element name="u_opened_by"/>
         </index>
     </element>

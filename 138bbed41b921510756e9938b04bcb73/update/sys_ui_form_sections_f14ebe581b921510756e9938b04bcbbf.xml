@@ -5,26 +5,13 @@
             <sys_created_by>ben.cleary</sys_created_by>
             <sys_created_on>2022-09-28 20:45:19</sys_created_on>
             <sys_domain>global</sys_domain>
-            <sys_id>714ebe581b921510756e9938b04bcbc3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_otte2_creative_f_creative_requests" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="Default view">f14ebe581b921510756e9938b04bcbbf</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="Default view">2cebf6d41b921510756e9938b04bcbaf</sys_ui_section>
-            <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-09-28 20:45:19</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>1</position>
-            <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-09-28 20:45:19</sys_created_on>
-            <sys_domain>global</sys_domain>
             <sys_id>7d4ebe581b921510756e9938b04bcbc3</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_otte2_creative_f_creative_requests" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="Default view">f14ebe581b921510756e9938b04bcbbf</sys_ui_form>
-            <sys_ui_section caption="Information" display_value="Information" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="Default view">b14ebe581b921510756e9938b04bcbbe</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="Default view">b14ebe581b921510756e9938b04bcbbe</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-09-28 20:45:19</sys_updated_on>
+            <sys_updated_on>2022-10-28 23:47:15</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_otte2_creative_f_creative_requests</name>

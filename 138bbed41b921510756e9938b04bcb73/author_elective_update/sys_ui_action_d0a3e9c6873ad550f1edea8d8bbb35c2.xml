@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>prepReject</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Reject Approval Client</name>
+        <onclick>readyReject()</onclick>
+        <order>100</order>
+        <script><![CDATA[function readyReject(){
+
+	current.u_rejected == 'true';
+	current.update();
+	
+	action.setRedirectURL(current);
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-28 21:19:06</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>d0a3e9c6873ad550f1edea8d8bbb35c2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Reject Approval Client</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sys_ui_action_d0a3e9c6873ad550f1edea8d8bbb35c2</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 01:26:55</sys_updated_on>
+        <table>x_otte2_creative_f_creative_requests</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Form">138bbed41b921510756e9938b04bcb73</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8b439731a91110003963fcb08fc43253</instance_id>
+        <instance_name>otterboxtest</instance_name>
+        <name>sys_ui_action_d0a3e9c6873ad550f1edea8d8bbb35c2</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;prepReject&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Reject Approval Client&lt;/name&gt;&lt;onclick&gt;readyReject()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function readyReject(){
+
+	current.u_rejected == 'true';
+	current.update();
+	
+	action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ben.cleary&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-28 21:19:06&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;d0a3e9c6873ad550f1edea8d8bbb35c2&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Reject Approval Client&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Creative Form" source="x_otte2_creative_f"&gt;138bbed41b921510756e9938b04bcb73&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Creative Form"&gt;138bbed41b921510756e9938b04bcb73&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_d0a3e9c6873ad550f1edea8d8bbb35c2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ben.cleary&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-29 01:26:55&lt;/sys_updated_on&gt;&lt;table&gt;x_otte2_creative_f_creative_requests&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2071170425</payload_hash>
+        <record_name>Reject Approval Client</record_name>
+        <reverted_from/>
+        <source>f0e218eadb6a19107980c59b139619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 01:26:55</sys_created_on>
+        <sys_id>df6ed286873ed550f1edea8d8bbb3591</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18421595d090000001</sys_recorded_at>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 01:26:55</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>576ed286b73ed5500e872767faed8f91</update_guid>
+        <update_guid_history>576ed286b73ed5500e872767faed8f91:-2071170425,f6af0a06d5fad550872fce0217195c4d:-1149419752,c3d346ca1cbad55076ea685e5d8d6d1b:-764284590,3ac6ed8ae93ad55066f58d00f9c3b495:661296534,76c5218a243ad550f47da8eee0c8b59e:835153782,85b5ad4a243ad550a9618ba08ff0547f:-431605718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 01:28:05</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>6e643cf48b044900b2b447e0baf07a44</sys_id>
+        <sys_metadata>d0a3e9c6873ad550f1edea8d8bbb35c2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Approval Client</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_parent display_value="Creative Requests">95b290aedb6a19107980c59b13961962</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_scope_delete display_value="">3ac81eb010c94af092b58e734bb96d10</sys_scope_delete>
+        <sys_update_name>sys_ui_action_d0a3e9c6873ad550f1edea8d8bbb35c2</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_d0a3e9c6873ad550f1edea8d8bbb35c2">df6ed286873ed550f1edea8d8bbb3591</sys_update_version>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 01:28:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

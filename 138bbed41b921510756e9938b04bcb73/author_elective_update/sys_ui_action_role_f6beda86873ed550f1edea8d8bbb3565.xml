@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="DELETE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 01:29:29</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f6beda86873ed550f1edea8d8bbb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.creative_super_user</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_ui_action display_value="">92be5e86873ed550f1edea8d8bbb35ee</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_f6beda86873ed550f1edea8d8bbb3565</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 01:29:29</sys_updated_on>
+        <sys_user_role display_value="creative_super_user" name="creative_super_user">4d42b8fd87769550f1edea8d8bbb353d</sys_user_role>
+    </sys_ui_action_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Form">138bbed41b921510756e9938b04bcb73</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8b439731a91110003963fcb08fc43253</instance_id>
+        <instance_name>otterboxtest</instance_name>
+        <name>sys_ui_action_role_f6beda86873ed550f1edea8d8bbb3565</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_role"><sys_ui_action_role action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_role</sys_class_name><sys_created_by>ben.cleary</sys_created_by><sys_created_on>2022-10-29 01:29:29</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f6beda86873ed550f1edea8d8bbb3565</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.creative_super_user</sys_name><sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope><sys_ui_action display_value="">92be5e86873ed550f1edea8d8bbb35ee</sys_ui_action><sys_update_name>sys_ui_action_role_f6beda86873ed550f1edea8d8bbb3565</sys_update_name><sys_updated_by>ben.cleary</sys_updated_by><sys_updated_on>2022-10-29 01:29:29</sys_updated_on><sys_user_role display_value="creative_super_user" name="creative_super_user">4d42b8fd87769550f1edea8d8bbb353d</sys_user_role></sys_ui_action_role></record_update>]]></payload>
+        <payload_hash>-1253487585</payload_hash>
+        <record_name>.creative_super_user</record_name>
+        <reverted_from/>
+        <source>f0e218eadb6a19107980c59b139619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 01:29:29</sys_created_on>
+        <sys_id>b40f5a86873ed550f1edea8d8bbb3529</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184215bb5f40000001</sys_recorded_at>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 01:29:29</sys_updated_on>
+        <type>UI Action Role</type>
+        <update_guid>bc0f5a86ca3ed5509a0f4ea8a2b1a628</update_guid>
+        <update_guid_history>bc0f5a86ca3ed5509a0f4ea8a2b1a628:-1253487585</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 01:46:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action_role">sys_ui_action_role</sys_db_object>
+        <sys_id>7616fb95fdf244bd8f6ccd52aa3563c9</sys_id>
+        <sys_metadata>f6beda86873ed550f1edea8d8bbb3565</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.creative_super_user</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_scope_delete display_value="">3ac81eb010c94af092b58e734bb96d10</sys_scope_delete>
+        <sys_update_name>sys_ui_action_role_f6beda86873ed550f1edea8d8bbb3565</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_role_f6beda86873ed550f1edea8d8bbb3565">b40f5a86873ed550f1edea8d8bbb3529</sys_update_version>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 01:46:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

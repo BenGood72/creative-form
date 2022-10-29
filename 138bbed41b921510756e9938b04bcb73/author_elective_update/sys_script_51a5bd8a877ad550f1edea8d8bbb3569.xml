@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_otte2_creative_f_creative_requests</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_otte2_creative_f_creative_requests">u_send_approval=true^EQ<item endquery="false" field="u_send_approval" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Sysapproval</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//Lookup approval
+var approval = new GlideRecord('sysapproval_approver');
+approval.addQuery('source_table', 'x_otte2_creative_f_creative_requests');
+//approval.addQuery('approver',current.u_brief_approval);
+//approval.orderByDesc('sys_created_on');
+approval.setLimit(1);
+approval.query();
+
+gs.addInfoMessage(approval.document_id);
+//while(approval.next()){
+	//approval.state = 'rejected';
+	//approval.comments = current.u_rejection_reason;
+	//approval.update();
+	//action.setRedirectURL(approval);
+//}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-28 22:31:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>51a5bd8a877ad550f1edea8d8bbb3569</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Sysapproval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sys_script_51a5bd8a877ad550f1edea8d8bbb3569</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-28 22:45:36</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Form">138bbed41b921510756e9938b04bcb73</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8b439731a91110003963fcb08fc43253</instance_id>
+        <instance_name>otterboxtest</instance_name>
+        <name>sys_script_51a5bd8a877ad550f1edea8d8bbb3569</name>
+        <order/>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_label/&gt;&lt;action_name/&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_run_at&gt;server&lt;/action_run_at&gt;&lt;action_update&gt;true&lt;/action_update&gt;&lt;active&gt;false&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;application/&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_otte2_creative_f_creative_requests&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_otte2_creative_f_creative_requests"&gt;u_send_approval=true^EQ&lt;item endquery="false" field="u_send_approval" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Sysapproval&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;read_access_action&gt;false&lt;/read_access_action&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+//Lookup approval
+var approval = new GlideRecord('sysapproval_approver');
+approval.addQuery('source_table', 'x_otte2_creative_f_creative_requests');
+//approval.addQuery('approver',current.u_brief_approval);
+//approval.orderByDesc('sys_created_on');
+approval.setLimit(1);
+approval.query();
+
+gs.addInfoMessage(approval.document_id);
+//while(approval.next()){
+	//approval.state = 'rejected';
+	//approval.comments = current.u_rejection_reason;
+	//approval.update();
+	//action.setRedirectURL(approval);
+//}
+
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;ben.cleary&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-28 22:31:13&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_id&gt;51a5bd8a877ad550f1edea8d8bbb3569&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Sysapproval&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Creative Form" source="x_otte2_creative_f"&gt;138bbed41b921510756e9938b04bcb73&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Creative Form"&gt;138bbed41b921510756e9938b04bcb73&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_51a5bd8a877ad550f1edea8d8bbb3569&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;ben.cleary&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-28 22:45:36&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1643869128</payload_hash>
+        <record_name>Sysapproval</record_name>
+        <reverted_from/>
+        <source>f0e218eadb6a19107980c59b139619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-28 22:45:36</sys_created_on>
+        <sys_id>d889b5ce877ad550f1edea8d8bbb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18420c5ac170000001</sys_recorded_at>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-28 22:45:36</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>9c89b5ce317ad550051f3a6462994ff6</update_guid>
+        <update_guid_history>9c89b5ce317ad550051f3a6462994ff6:-1643869128,be17f9ca7a7ad550ac4d5c48fe795478:-1171443887,1cc6f9ca8c7ad5509e041eefad403080:880409905,a366b58a937ad550a1e102bd14efa537:-105892894,a136b98a257ad550329358a663a68a51:695188226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-28 23:32:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>13e1dc1b63354ba58ea62868c8e9b2e1</sys_id>
+        <sys_metadata>51a5bd8a877ad550f1edea8d8bbb3569</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sysapproval</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_parent display_value="Creative Requests">95b290aedb6a19107980c59b13961962</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_scope_delete display_value="">3ac81eb010c94af092b58e734bb96d10</sys_scope_delete>
+        <sys_update_name>sys_script_51a5bd8a877ad550f1edea8d8bbb3569</sys_update_name>
+        <sys_update_version display_value="sys_script_51a5bd8a877ad550f1edea8d8bbb3569">d889b5ce877ad550f1edea8d8bbb35f7</sys_update_version>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-28 23:32:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

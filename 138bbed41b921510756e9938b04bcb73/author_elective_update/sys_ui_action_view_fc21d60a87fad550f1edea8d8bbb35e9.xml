@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view">
+    <sys_ui_action_view action="DELETE">
+        <sys_class_name>sys_ui_action_view</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 00:28:51</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>fc21d60a87fad550f1edea8d8bbb35e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Approval Biz.Rejected</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_ui_action display_value="Reject Approval Biz">1d45118a87f6d550f1edea8d8bbb350b</sys_ui_action>
+        <sys_ui_view display_value="Rejected" name="Rejected">7fcf7b59db70674024fff2f5ab961918</sys_ui_view>
+        <sys_update_name>sys_ui_action_view_fc21d60a87fad550f1edea8d8bbb35e9</sys_update_name>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 00:28:51</sys_updated_on>
+        <visibility>include</visibility>
+    </sys_ui_action_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Creative Form">138bbed41b921510756e9938b04bcb73</application>
+        <comments/>
+        <file_path/>
+        <instance_id>8b439731a91110003963fcb08fc43253</instance_id>
+        <instance_name>otterboxtest</instance_name>
+        <name>sys_ui_action_view_fc21d60a87fad550f1edea8d8bbb35e9</name>
+        <order/>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_action_view"><sys_ui_action_view action="INSERT_OR_UPDATE"><sys_class_name>sys_ui_action_view</sys_class_name><sys_created_by>ben.cleary</sys_created_by><sys_created_on>2022-10-29 00:28:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>fc21d60a87fad550f1edea8d8bbb35e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Reject Approval Biz.Rejected</sys_name><sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope><sys_ui_action display_value="Reject Approval Biz">1d45118a87f6d550f1edea8d8bbb350b</sys_ui_action><sys_ui_view display_value="Rejected" name="Rejected">7fcf7b59db70674024fff2f5ab961918</sys_ui_view><sys_update_name>sys_ui_action_view_fc21d60a87fad550f1edea8d8bbb35e9</sys_update_name><sys_updated_by>ben.cleary</sys_updated_by><sys_updated_on>2022-10-29 00:28:51</sys_updated_on><visibility>include</visibility></sys_ui_action_view></record_update>]]></payload>
+        <payload_hash>2021626853</payload_hash>
+        <record_name>include</record_name>
+        <reverted_from/>
+        <source>f0e218eadb6a19107980c59b139619b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 00:28:51</sys_created_on>
+        <sys_id>bc21d60a87fad550f1edea8d8bbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1842124333b0000001</sys_recorded_at>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 00:28:51</sys_updated_on>
+        <type>UI View Action</type>
+        <update_guid>b421d60a62fad5501f638b28fd1076ec</update_guid>
+        <update_guid_history>b421d60a62fad5501f638b28fd1076ec:2021626853</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>ben.cleary</sys_created_by>
+        <sys_created_on>2022-10-29 00:33:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_db_object display_value="" name="sys_ui_action_view">sys_ui_action_view</sys_db_object>
+        <sys_id>828053c2859048ecbcc144cb29961484</sys_id>
+        <sys_metadata>fc21d60a87fad550f1edea8d8bbb35e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Approval Biz.Rejected</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_parent display_value="Reject Approval Biz">1d45118a87f6d550f1edea8d8bbb350b</sys_parent>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_scope_delete display_value="">3ac81eb010c94af092b58e734bb96d10</sys_scope_delete>
+        <sys_update_name>sys_ui_action_view_fc21d60a87fad550f1edea8d8bbb35e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_view_fc21d60a87fad550f1edea8d8bbb35e9">bc21d60a87fad550f1edea8d8bbb35ec</sys_update_version>
+        <sys_updated_by>ben.cleary</sys_updated_by>
+        <sys_updated_on>2022-10-29 00:33:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

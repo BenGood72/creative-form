@@ -16,71 +16,71 @@
 	
 	//Background
 	if(brief == 'development'){
-		g_form.showFieldMsg('u_background','Is this request for NEW CREATIVE part of any other larger initiative? Briefly provide any background information essential for the development of new creative assets (Art, Copy, Design, Video)','info');  
+		g_form.showFieldMsg('u_background','Is this request for NEW CREATIVE part of any other larger initiative? Briefly provide any background information essential for the development of new creative assets (Art, Copy, Design, Video)','info',false);  
 	} else if (brief == 'execution'){
-		g_form.showFieldMsg('u_background','Is this creative execution part of another initiative? Provide any information essential for the completion of this request, including other project or asset numbers.','info');
+		g_form.showFieldMsg('u_background','Is this creative execution part of another initiative? Provide any information essential for the completion of this request, including other project or asset numbers.','info',false);
 	}
 
 	//Objective
 	if(brief == 'development'){
-		g_form.showFieldMsg('u_objective','Why are we doing this? What should the NEW CREATIVE achieve?','info');
+		g_form.showFieldMsg('u_objective','Why are we doing this? What should the NEW CREATIVE achieve?','info',false);
 	} else if (brief == 'execution'){
-		g_form.showFieldMsg('u_objective','Why are we executing this? What should the creative execution achieve?','info');
+		g_form.showFieldMsg('u_objective','Why are we executing this? What should the creative execution achieve?','info',false);
 	}
 	
 	//Target Audience
 	if(brief == 'development'){
-		g_form.showFieldMsg('u_target_audience','Who, where and when. In a few words, what might their core tension be?','info');
+		g_form.showFieldMsg('u_target_audience','Who, where and when. In a few words, what might their core tension be?','info',false);
 	} else if (brief == 'execution'){
-		g_form.showFieldMsg('u_target_audience','Who, where and when. In a few words, what might their core tension be?','info');
+		g_form.showFieldMsg('u_target_audience','Who, where and when. In a few words, what might their core tension be?','info',false);
 	}
 	
 	//Message Strategy
-	g_form.showFieldMsg('u_message_strategy','Attach if new / reference if existing','info');
+	g_form.showFieldMsg('u_message_strategy','Attach if new / reference if existing','info',false);
 	
 	//Assignment Details
 	if(brief == 'development'){
-		g_form.showFieldMsg('u_assignment_details','Please make a deliverable list, in order of priority, with consideration to each execution type and, if applicable, quantity','info');
+		g_form.showFieldMsg('u_assignment_details','Please make a deliverable list, in order of priority, with consideration to each execution type and, if applicable, quantity','info',false);
 	} else if (brief == 'execution'){
-		g_form.showFieldMsg('u_assignment_details','Please list all deliverables, in order of priority, with consideration of each execution type and, if applicable, quantity. Note: If you are submitting a brief for CDL assets please list which CRNs are backed by this brief and which channels are requesting them.','info');
+		g_form.showFieldMsg('u_assignment_details','Please list all deliverables, in order of priority, with consideration of each execution type and, if applicable, quantity. Note: If you are submitting a brief for CDL assets please list which CRNs are backed by this brief and which channels are requesting them.','info',false);
 	}
 	
 	//Mandatories
 	if(brief == 'development'){
-		g_form.showFieldMsg('u_mandatories','Include any specific language, logo(s), product(s), call-to-action, etc. Production briefs require more information, including thematic direction, shot lists, etc.','info');
+		g_form.showFieldMsg('u_mandatories','Include any specific language, logo(s), product(s), call-to-action, etc. Production briefs require more information, including thematic direction, shot lists, etc.','info',false);
 	} else if (brief == 'execution'){
-		g_form.showFieldMsg('u_mandatories','Include any specific language, logo(s), product(s), call-to-action, etc.','info');
+		g_form.showFieldMsg('u_mandatories','Include any specific language, logo(s), product(s), call-to-action, etc.','info',false);
 	}
 	
 	//Additional Info
 	if(brief == 'development'){
-		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable. Project numbers are the best!','info');
+		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable. Project numbers are the best!','info',false);
 	}  else if (brief == 'execution'){
-		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in a kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable, including previous project or CDL asset numbers.','info');
+		g_form.showFieldMsg('u_additional_information','Please include a list of stakeholders to include in a kickoff meeting and any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable, including previous project or CDL asset numbers.','info',false);
 	} else if (brief == 'revision'){
-		g_form.showFieldMsg('u_additional_information','Please include any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable.','info');
+		g_form.showFieldMsg('u_additional_information','Please include any creative references (previous executions, competitive samples, visual examples, etc.) that may provide a better understanding of the deliverable.','info',false);
 	}
 	
 	//Call to Action
-	g_form.showFieldMsg('u_call_to_action','Buy Now, Shop Now, Learn More, Sign Up. Etc. Creative can re-write it but what is the goal action for this creative?','info');
+	g_form.showFieldMsg('u_call_to_action','Buy Now, Shop Now, Learn More, Sign Up. Etc. Creative can re-write it but what is the goal action for this creative?','info',false);
 	
 	//SKUS to Feature
-	g_form.showFieldMsg('u_skus_to_feature','Please include all SKU numbers the asset(s) should contain, in order of priority. This is mandatory. Also acceptable are links to products or attachments of Product Copy Decks for requested products.','info');
+	g_form.showFieldMsg('u_skus_to_feature','Please include all SKU numbers the asset(s) should contain, in order of priority. This is mandatory. Also acceptable are links to products or attachments of Product Copy Decks for requested products.','info',false);
 	
 	//Original Creative Brief Number
-	g_form.showFieldMsg('u_original_brief','It will take us much less time to revise if we can reference the brief / asset number from original art. If not available, please add any art or links you do have.','info');
+	g_form.showFieldMsg('u_original_brief','It will take us much less time to revise if we can reference the brief / asset number from original art. If not available, please add any art or links you do have.','info',false);
 	
 	//Revision Details
-	g_form.showFieldMsg('u_revision_details','New deliverables requested, in a list, in order of priority, with consideration to each execution type.','info');
+	g_form.showFieldMsg('u_revision_details','New deliverables requested, in a list, in order of priority, with consideration to each execution type.','info',false);
 	
 	//Tech Specs
-	g_form.showFieldMsg('u_tech_specs','If applicable, what specifications have changed for request?','info');
+	g_form.showFieldMsg('u_tech_specs','If applicable, what specifications have changed for request?','info',false);
 	
 	//If applicable, what specifications have changed
-	g_form.showFieldMsg('u_what_changed','Who, where and when. In a few words, what might their core tension be?','info');
+	g_form.showFieldMsg('u_what_changed','Who, where and when. In a few words, what might their core tension be?','info',false);
 
 	//Add SKUS
-	g_form.showFieldMsg('u_add_sku','Please include all SKU numbers the asset(s) should contain, in order of priority','info');
+	g_form.showFieldMsg('u_add_sku','Please include all SKU numbers the asset(s) should contain, in order of priority','info',false);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
@@ -88,7 +88,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e8a8b422db2e19107980c59b139619b8</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Help text</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -97,7 +97,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_client_e8a8b422db2e19107980c59b139619b8</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-20 19:45:28</sys_updated_on>
+        <sys_updated_on>2022-10-28 21:43:43</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
