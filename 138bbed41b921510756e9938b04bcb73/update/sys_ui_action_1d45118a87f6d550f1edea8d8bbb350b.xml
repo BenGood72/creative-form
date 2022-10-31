@@ -27,7 +27,7 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Reject Approval Biz</name>
+        <name>Reject Brief (b)</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[//Lookup approval
@@ -38,8 +38,11 @@ approval.query();
 while(approval.next()){
 	approval.state = 'rejected';
 	approval.comments = current.u_rejection_reason;
+
 	approval.update();
+	current.update;
 	action.setRedirectURL(approval);
+
 }]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -51,8 +54,8 @@ while(approval.next()){
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1d45118a87f6d550f1edea8d8bbb350b</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>Reject Approval Biz</sys_name>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Reject Brief (b)</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
@@ -60,7 +63,7 @@ while(approval.next()){
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_ui_action_1d45118a87f6d550f1edea8d8bbb350b</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-29 01:40:23</sys_updated_on>
+        <sys_updated_on>2022-10-31 20:47:45</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
