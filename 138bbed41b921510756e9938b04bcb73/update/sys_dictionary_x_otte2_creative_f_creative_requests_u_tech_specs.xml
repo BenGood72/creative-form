@@ -28,7 +28,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="HTML">html</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>65536</max_length>
         <name>x_otte2_creative_f_creative_requests</name>
         <next_element/>
@@ -49,8 +49,8 @@
         <sys_created_by>ben.cleary</sys_created_by>
         <sys_created_on>2022-10-03 22:19:02</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>93a3c18a1bd61910756e9938b04bcb83</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>29b290aedb6a19107980c59b139619e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Technical Specifications</sys_name>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_dictionary_x_otte2_creative_f_creative_requests_u_tech_specs</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-03 22:19:02</sys_updated_on>
+        <sys_updated_on>2022-11-02 20:02:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

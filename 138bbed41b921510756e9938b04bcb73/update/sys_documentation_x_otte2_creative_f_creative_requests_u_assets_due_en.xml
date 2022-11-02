@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_assets_due" label="Final Assets Due" language="en" table="x_otte2_creative_f_creative_requests">
+    <sys_documentation element="u_assets_due" label="Final Assets due" language="en" table="x_otte2_creative_f_creative_requests">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_assets_due</element>
             <help/>
             <hint/>
-            <label>Final Assets Due</label>
+            <label>Final Assets due</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
-            <plural>Final Assets Dues</plural>
+            <plural>Final Assets dues</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-04 17:06:22</sys_created_on>
+            <sys_created_on>2022-10-31 21:01:21</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>49b509d21b925910756e9938b04bcbd6</sys_id>
+            <sys_id>2a6e34cfdb7259107980c59b139619ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Final Assets Due</sys_name>
+            <sys_name>Final Assets due</sys_name>
             <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
             <sys_update_name>sys_documentation_x_otte2_creative_f_creative_requests_u_assets_due_en</sys_update_name>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-04 17:06:22</sys_updated_on>
+            <sys_updated_on>2022-10-31 21:01:21</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

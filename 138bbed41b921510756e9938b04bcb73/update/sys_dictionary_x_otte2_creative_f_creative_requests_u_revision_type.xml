@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_final_assets_due" table="x_otte2_creative_f_creative_requests">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_revision_type" table="x_otte2_creative_f_creative_requests">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>no_sort=true,slushbucket_ref_no_expand=true,start_locked=false</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Final Assets Due</column_label>
+        <column_label>Revision Type (choose 1 or more)</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -22,14 +22,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_final_assets_due</element>
+        <element>u_revision_type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">due_date</internal_type>
-        <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <internal_type display_value="">glide_list</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
         <name>x_otte2_creative_f_creative_requests</name>
         <next_element/>
         <primary>false</primary>
@@ -47,18 +47,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
-        <sys_created_on>2022-09-28 20:41:09</sys_created_on>
+        <sys_created_on>2022-10-20 19:30:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>785df2581b921510756e9938b04bcbb0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Final Assets Due</sys_name>
+        <sys_id>c02088a3db6ed9107980c59b13961906</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Revision Type (choose 1 or more)</sys_name>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
-        <sys_update_name>sys_dictionary_x_otte2_creative_f_creative_requests_u_final_assets_due</sys_update_name>
+        <sys_update_name>sys_dictionary_x_otte2_creative_f_creative_requests_u_revision_type</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-09-28 20:41:09</sys_updated_on>
+        <sys_updated_on>2022-11-02 20:02:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

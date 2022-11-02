@@ -22,7 +22,7 @@
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Copy Revision / Additions</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
@@ -32,16 +32,16 @@
             <sys_created_on>2022-10-03 22:19:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>e7a3c18a1bd61910756e9938b04bcbbc</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:32:14</sys_updated_on>
+            <sys_updated_on>2022-10-31 21:10:20</sys_updated_on>
             <value>copy_revision</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>QA-Proofing</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
@@ -51,16 +51,16 @@
             <sys_created_on>2022-10-20 19:33:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>95c040e3db6ed9107980c59b139619be</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:38:37</sys_updated_on>
+            <sys_updated_on>2022-10-31 21:10:21</sys_updated_on>
             <value>qa_proofing</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Image revision (size/type)</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
@@ -70,16 +70,16 @@
             <sys_created_on>2022-10-03 22:19:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>27a3c18a1bd61910756e9938b04bcbbf</sys_id>
-            <sys_mod_count>4</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:34:35</sys_updated_on>
+            <sys_updated_on>2022-10-31 21:10:24</sys_updated_on>
             <value>image_revision</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Video Revision</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
@@ -89,16 +89,16 @@
             <sys_created_on>2022-10-20 19:33:42</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>9fd0c0e3db6ed9107980c59b1396192d</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:38:37</sys_updated_on>
+            <sys_updated_on>2022-10-31 21:10:26</sys_updated_on>
             <value>video_revision</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>u_revision_type</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Asset Revision (CDL Asset(s), or Theme to revise)</label>
             <language>en</language>
             <name>x_otte2_creative_f_creative_requests</name>
@@ -108,9 +108,9 @@
             <sys_created_on>2022-10-20 19:34:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>d3f0c4e3db6ed9107980c59b139619b1</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-20 19:38:37</sys_updated_on>
+            <sys_updated_on>2022-10-31 21:10:28</sys_updated_on>
             <value>asset_revision</value>
         </sys_choice>
     </sys_choice>
