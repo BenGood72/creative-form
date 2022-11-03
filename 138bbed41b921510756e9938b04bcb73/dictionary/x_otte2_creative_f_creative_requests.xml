@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Creative Requests" max_length="40" name="x_otte2_creative_f_creative_requests" sizeclass="54" type="collection">
+    <element label="Creative Requests" max_length="40" name="x_otte2_creative_f_creative_requests" sizeclass="56" type="collection">
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Additional Information" max_length="65536" name="u_additional_information" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Please add SKU numbers to be added" max_length="4000" name="u_add_sku" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Additional Information" mandatory="true" max_length="4000" name="u_aditional_info" type="string"/>
-        <element attributes="encode_utf8=false" choice="1" label="Brief Approval" max_length="32" name="u_approval" reference="sys_user" reference_qual="active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ" reference_qual_condition="active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ" type="reference">
+        <element attributes="encode_utf8=false" choice="1" label="Brief Approval" mandatory="true" max_length="32" name="u_approval" reference="sys_user" reference_qual="active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ" reference_qual_condition="active=true^user_name=alex.ross^ORuser_name=bill.fisher^ORuser_name=melissa.crompton^ORuser_name=kelsey.schneider^ORuser_name=rande.colburn^ORuser_name=nathan.childs^ORuser_name=tammi.smith^ORuser_name=Michael.Kirby^ORuser_name=ruth.thomas^EQ" type="reference">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Approval History" max_length="4000" name="u_approval_history" type="journal"/>
@@ -19,7 +19,7 @@
             </choice>
         </element>
         <element attributes="encode_utf8=false" label="Assigned To" max_length="32" name="u_assigned_to" reference="sys_user" reference_qual="user_name=catt.buko^ORuser_name=chris.white^ORuser_name=tyais.mcbride^EQ" reference_qual_condition="user_name=catt.buko^ORuser_name=chris.white^ORuser_name=tyais.mcbride^EQ" type="reference"/>
-        <element label="Assignment Details" max_length="65536" name="u_assignment_details" type="html"/>
+        <element label="Assignment Details" mandatory="true" max_length="65536" name="u_assignment_details" type="html"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" hint="This is hint text" label="Background" mandatory="true" max_length="65536" name="u_background" type="html"/>
         <element label="Background" max_length="65536" name="u_background_execution" type="html"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Brand" mandatory="true" max_length="40" name="u_brand" type="string">
@@ -66,6 +66,7 @@
         <element label="Locked?" max_length="40" name="u_locked" type="boolean"/>
         <element label="Mandatories" mandatory="true" max_length="65536" name="u_mandatories" type="html"/>
         <element label="Message Strategy" mandatory="true" max_length="65536" name="u_message_strategy" type="html"/>
+        <element attributes="encode_utf8=false" default="e0281d3bdbfad9107980c59b1396194d" label="MOPS" max_length="32" name="u_mops" reference="sys_user_group" type="reference"/>
         <element label="Will any new SKUs need to be added to the existing asset?" max_length="40" name="u_new_skus" type="boolean"/>
         <element label="Objective" mandatory="true" max_length="65536" name="u_objective" type="html"/>
         <element attributes="encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Opened By" max_length="32" name="u_opened_by" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
@@ -79,19 +80,20 @@
                 <element inactive_on_update="false" label="4-Less important, less urgent" sequence="3" value="4"/>
             </choice>
         </element>
+        <element label="ProblemReport" max_length="40" name="u_problem_report" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Project Title" mandatory="true" max_length="40" name="u_project_title" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Reason for draft review date" mandatory="true" max_length="255" name="u_reason" type="string_full_utf8"/>
         <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element label="Rejected" max_length="40" name="u_rejected" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Reason for Rejection" max_length="4000" name="u_rejection_reason" type="string"/>
-        <element label="Please explain problem here" mandatory="true" max_length="65536" name="u_report_problem" type="html"/>
+        <element label="Please explain problem or feedback here" mandatory="true" max_length="65536" name="u_report_problem" type="html"/>
         <element attributes="edge_encryption_enabled=true" label="Requested draft review" mandatory="true" max_length="40" name="u_requested_draft" type="glide_date"/>
         <element label="Revision Details" mandatory="true" max_length="65536" name="u_revision_details" type="html"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true,start_locked=false" label="Revision Type (choose 1 or more)" mandatory="true" max_length="1024" name="u_revision_type" type="glide_list"/>
         <element label="Screenshots" max_length="40" name="u_screenshots" type="file_attachment"/>
         <element label="Send for Approval" max_length="40" name="u_send_approval" type="boolean"/>
         <element label="SKUs to Feature" mandatory="true" max_length="65536" name="u_skus_to_feature" type="html"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="not_submitted" label="Status" max_length="40" name="u_status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="not_submitted" label="Status" max_length="40" name="u_status" read_only="true" type="string">
             <choice>
                 <element inactive_on_update="false" label="Saved - Not Submitted" sequence="0" value="not_submitted"/>
                 <element inactive_on_update="false" label="Pending Approval" sequence="1" value="pending"/>
@@ -120,6 +122,9 @@
             <element name="u_approval"/>
         </index>
         <index name="index5">
+            <element name="u_mops"/>
+        </index>
+        <index name="index6">
             <element name="u_opened_by"/>
         </index>
     </element>

@@ -4,13 +4,13 @@
             <element>u_report_problem</element>
             <position>0</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-28 19:08:42</sys_created_on>
-            <sys_id>03d74d8a87b6d550f1edea8d8bbb35e9</sys_id>
+            <sys_created_on>2022-11-03 00:44:47</sys_created_on>
+            <sys_id>cbb484b3dbf6d9107980c59b13961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Information" display_value="Information" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="26d74d8a87b6d550f1edea8d8bbb351e">e6d74d8a87b6d550f1edea8d8bbb3589</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-28 19:08:42</sys_updated_on>
+            <sys_updated_on>2022-11-03 00:44:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,27 @@
             <element>u_screenshots</element>
             <position>1</position>
             <sys_created_by>ben.cleary</sys_created_by>
-            <sys_created_on>2022-10-28 19:08:42</sys_created_on>
-            <sys_id>07d74d8a87b6d550f1edea8d8bbb35e9</sys_id>
+            <sys_created_on>2022-11-03 00:44:47</sys_created_on>
+            <sys_id>4fb484b3dbf6d9107980c59b13961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Information" display_value="Information" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="26d74d8a87b6d550f1edea8d8bbb351e">e6d74d8a87b6d550f1edea8d8bbb3589</sys_ui_section>
             <sys_updated_by>ben.cleary</sys_updated_by>
-            <sys_updated_on>2022-10-28 19:08:42</sys_updated_on>
+            <sys_updated_on>2022-11-03 00:44:47</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_problem_report</element>
+            <position>2</position>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-11-03 00:44:47</sys_created_on>
+            <sys_id>cfb484b3dbf6d9107980c59b13961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Information" display_value="Information" name="x_otte2_creative_f_creative_requests" sys_domain="global" view="26d74d8a87b6d550f1edea8d8bbb351e">e6d74d8a87b6d550f1edea8d8bbb3589</sys_ui_section>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-11-03 00:44:47</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

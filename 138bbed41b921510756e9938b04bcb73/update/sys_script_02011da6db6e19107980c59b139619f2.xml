@@ -35,7 +35,8 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	// Add your code here
+	current.active = true;
+
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -44,7 +45,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>02011da6db6e19107980c59b139619f2</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>New Active</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -53,8 +54,8 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_02011da6db6e19107980c59b139619f2</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-17 22:51:24</sys_updated_on>
-        <template>active=true^EQ</template>
+        <sys_updated_on>2022-11-03 00:47:29</sys_updated_on>
+        <template/>
         <when>before</when>
     </sys_script>
 </record_update>

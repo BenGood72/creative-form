@@ -35,7 +35,19 @@
 	
 	//active
 	g_form.setVisible('active', false);
+	
+	//Submitted
+	g_form.setVisible('u_locked', false);
+	
+	//for before query business rule
+	g_form.setVisible('u_problem_report', false);
+	g_form.setValue('u_problem_report', true);
+	
+	//Send Approval
+	g_form.setVisible('u_send_approval', false);
    
+	//MOPS@otterproducs.com for flow
+	g_form.setVisible('u_mops', false);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
@@ -43,7 +55,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cee9618e873ad550f1edea8d8bbb35f6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Hide onLoad</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -52,7 +64,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_client_cee9618e873ad550f1edea8d8bbb35f6</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-31 21:15:56</sys_updated_on>
+        <sys_updated_on>2022-11-03 06:53:49</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
