@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>bentest</sys_created_by>
+        <sys_created_on>2022-11-03 00:15:07</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1cfdbfe787b61510f1edea8d8bbb35d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GlideRecord.insert</sys_name>
+        <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
+        <sys_update_name>sys_scope_privilege_1cfdbfe787b61510f1edea8d8bbb35d6</sys_update_name>
+        <sys_updated_by>bentest</sys_updated_by>
+        <sys_updated_on>2022-11-03 00:15:07</sys_updated_on>
+        <target_name>GlideRecord.insert</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>
