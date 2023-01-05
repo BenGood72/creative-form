@@ -7,7 +7,7 @@
             <sys_created_by>ben.cleary</sys_created_by>
             <sys_created_on>2022-09-28 21:01:58</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>edb2d0aedb6a19107980c59b13961922</sys_id>
+            <sys_id>19397fff1bb2d15087e620e1604bcba3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_status</sys_name>
             <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -112,6 +112,25 @@
             <sys_updated_by>ben.cleary</sys_updated_by>
             <sys_updated_on>2022-10-28 23:43:48</sys_updated_on>
             <value>rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_otte2_creative_f_creative_requests</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>ben.cleary</sys_created_by>
+            <sys_created_on>2022-11-17 22:58:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>214cbce41b13199087e620e1604bcb19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ben.cleary</sys_updated_by>
+            <sys_updated_on>2022-11-17 22:58:35</sys_updated_on>
+            <value>approved</value>
         </sys_choice>
     </sys_choice>
 </record_update>

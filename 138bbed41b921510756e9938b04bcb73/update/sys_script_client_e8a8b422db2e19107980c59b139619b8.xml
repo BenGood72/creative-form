@@ -81,6 +81,10 @@
 
 	//Add SKUS
 	g_form.showFieldMsg('u_add_sku','Please include all SKU numbers the asset(s) should contain, in order of priority','info',false);
+	
+	//Supporting docs
+	g_form.showFieldMsg('u_supporting_docs_development', 'For multiple docs please use the paper clip icon in the top right','info',false);
+	g_form.showFieldMsg('u_supporting_docs', 'For multiple docs please use the paper clip icon in the top right','info',false);
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
@@ -88,7 +92,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>e8a8b422db2e19107980c59b139619b8</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Help text</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -97,7 +101,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_client_e8a8b422db2e19107980c59b139619b8</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-28 21:43:43</sys_updated_on>
+        <sys_updated_on>2022-11-03 22:50:55</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

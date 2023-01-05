@@ -22,7 +22,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>83b0d571873a9550f1edea8d8bbb35c0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Assigned to</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -31,7 +31,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_client_83b0d571873a9550f1edea8d8bbb35c0</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-28 01:11:11</sys_updated_on>
+        <sys_updated_on>2022-11-08 16:53:36</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

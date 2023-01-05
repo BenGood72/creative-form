@@ -54,8 +54,8 @@
 <!-- End Header --> <!-- BODY -->
 <tr style="height: 271px;">
 <td style="text-align: left; font-size: 10pt; height: 271px; width: 2008.8px;">
-<p>An Otter has submitted a Creative Request that requires your Approval. Please review the information below and then use the <a title="IT Service Portal" href="https://otterbox.service-now.com/sp" target="_blank" rel="noopener">IT Service Portal</a>&nbsp;to approve or deny the request via the 'My Approvals' panel. You can select "Options" to view more information about&nbsp;the request.</p>
-<center><img title="" src="sys_attachment.do?sys_id=2a0b50a04f4cb24084e342fd0210c736" alt="" border="" hspace="" vspace="" /></center><hr /></td>
+<p>An Otter has submitted a Creative Request that requires your Approval. Please review the information below and then use the <a title="IT Service Portal" href="https://otterbox.service-now.com/sp" target="_blank" rel="noopener">IT Service Portal</a> to approve or deny the request via the 'My Approvals' panel.</p>
+<center></center><hr /></td>
 </tr>
 <tr style="height: 16px;">
 <td style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; height: 16px; width: 2008.8px;">
@@ -112,7 +112,7 @@ ${mail_script:email.button.approve.insert} ${mail_script:email.button.reject.ins
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>b5195e32dbae59107980c59b1396198d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Creative Form</sys_name>
         <sys_overrides/>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -121,7 +121,7 @@ ${mail_script:email.button.approve.insert} ${mail_script:email.button.reject.ins
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sysevent_email_action_b5195e32dbae59107980c59b1396198d</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-28 17:25:01</sys_updated_on>
+        <sys_updated_on>2022-11-03 19:17:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

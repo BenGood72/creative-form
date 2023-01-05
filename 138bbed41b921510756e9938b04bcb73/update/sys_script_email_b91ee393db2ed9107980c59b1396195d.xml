@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
     <sys_script_email action="INSERT_OR_UPDATE">
         <name>email.button.approve.insert</name>
-        <new_lines_to_html>false</new_lines_to_html>
+        <new_lines_to_html>true</new_lines_to_html>
         <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
 
 var img = "/Approve.jpg";
 
 var response = "approve";
 
-var emailbod = "Please enter any comments here: <br />";
+var emailbod = 'REPLACE THIS TEXT WITH COMMENTS%0D%0A';
 
 template.print(renderMailtoButton(img, response, emailbod));
 
@@ -18,7 +18,7 @@ template.print(renderMailtoButton(img, response, emailbod));
         <sys_created_on>2022-10-20 18:12:21</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b91ee393db2ed9107980c59b1396195d</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>email.button.approve.insert</sys_name>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
         <sys_policy/>
@@ -26,6 +26,6 @@ template.print(renderMailtoButton(img, response, emailbod));
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_email_b91ee393db2ed9107980c59b1396195d</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-10-28 18:35:52</sys_updated_on>
+        <sys_updated_on>2022-11-07 19:03:05</sys_updated_on>
     </sys_script_email>
 </record_update>

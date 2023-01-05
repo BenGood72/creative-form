@@ -15,13 +15,15 @@
 	//Hide reject checkbox
 	//g_form.setVisible('u_rejected', false);
 	//Reject reason string
-	if(g_form.getValue('u_rejection_reason') != ''){
+	/* if(g_form.getValue('u_rejection_reason') != ''){
 		g_form.setVisible('u_rejection_reason', true);
+		g_form.setMandatory('u_rejection_reason', false);
 	}else {
 		g_form.setVisible('u_rejection_reason', false);
-	}
+	} */
+	g_form.setVisible('u_rejection_reason', false);
 	//Approval history
-	if(g_form.getValue('u_approval_history') != ''){
+	if(g_user.hasRole('creative_super_user')){
 		g_form.setVisible('u_approval_history', true);
 	}else {
 		g_form.setVisible('u_approval_history', false);
@@ -48,6 +50,11 @@
    
 	//MOPS@otterproducs.com for flow
 	g_form.setVisible('u_mops', false);
+	
+	//completed
+	if (!g_user.hasRole('creative_super_user')){
+		g_form.setVisible('u_completed', false);
+	}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>ben.cleary</sys_created_by>
@@ -55,7 +62,7 @@
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cee9618e873ad550f1edea8d8bbb35f6</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Hide onLoad</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Creative Form" source="x_otte2_creative_f">138bbed41b921510756e9938b04bcb73</sys_package>
@@ -64,7 +71,7 @@
         <sys_scope display_value="Creative Form">138bbed41b921510756e9938b04bcb73</sys_scope>
         <sys_update_name>sys_script_client_cee9618e873ad550f1edea8d8bbb35f6</sys_update_name>
         <sys_updated_by>ben.cleary</sys_updated_by>
-        <sys_updated_on>2022-11-03 06:53:49</sys_updated_on>
+        <sys_updated_on>2022-12-08 00:56:04</sys_updated_on>
         <table>x_otte2_creative_f_creative_requests</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>
